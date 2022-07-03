@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <button class="tablink" onclick="openCity('Home', this)" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openCity('page2', this)">Assignment 1</button>
+        <button class="tablink" onclick="openCity('page3', this)">Clothes</button>
+        <button class="tablink" onclick="openCity('page4', this)">Shoes</button>
+        <button class="tablink" onclick="openCity('page5', this)">Underwear</button>
+        <button class="tablink" onclick="openCity('page6', this)">Kids</button>
+        <button class="tablink" onclick="openCity('page7', this)">Jewelery</button>
+        <button class="tablink" onclick="openCity('page8', this)">Contact</button>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {font-family: "Sans", sans;
+        font-size: 90%;}
+        
+        .tablink {
+          background-color: #555;
+          color: white;
+          flex-wrap: wrap;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          font-size: 17px;
+          width: 25%;
+        }
+        
+        .tablink:hover {
+          background-color: lightblue;
+        }
+        
+        
+        .tabcontent {
+          color: white;
+          padding-top:25%;
+          display: none;
+          height:1200px;
+          text-align: center;
+          
+        
+  
+        }
+        .padding{
+          margin: 25%;
+          font-family: fantasy;
+          font-size: 222%;
+          font-feature-settings: "aalt";
+          font-weight: lighter;
+          line-height: 212%;
+        }
+
+        .tabcontent1 {
+            color: white;
+            display: none;
+            padding: 120px;
+            text-align: center;
+          }
+          .ul,ol { 
+            display: inline-block; 
+            margin-left: 50% ; 
+            text-align: center;
+            transform: translateX(-50%); 
+              
+          }
+              
+          .format1{
+                  position:absolute;
+                  text-align: center;
+                  color: black;
+                  vertical-align: left ;
+                  align-content: center;
+                  align-self: auto;
+              }
+
+          .imageContainer {
+                width:200px; 
+                height:200px; 
+                background-image: url(locationoftheimage);
+          }
+          .image { 
+            position: relative; 
+            width: 100%;
+         }         
+         
+          .imagetext {
+                position: Fixed;
+                top: 560px;
+                left: 140px;
+                color: black;
+                margin: center;
+                padding-top: 28%;
+                margin-top: 10%;
+              }
+          
+          .format2{
+                  margin-left: 10% ;
+                  padding-top: 10%;
+                }
+        
+        #Home {background-color:#618dd4;}
+        #page2 {background-color:aliceblue;
+                color: black;}
+        #page3 {background-color:#618dd4;}
+        #page4 {background-color:rgb(0, 255, 234);}
+        #page5 {background-color:rgb(19, 114, 78);}
+        #page6 {background-color:rgb(25, 57, 131);}
+        #page7 {background-color:rgb(149, 56, 168);}
+        #page8 {background-color:orange;}
+        #background1 {
+          background-color: aliceblue;
+          color: black;
+          align-items: center;
+      }
+
+        </style>
+        </head>
+        
+        
+        <head>
+        <body>
+        
+        <div id="Home" class="tabcontent">
+          
+          <title>Assignment's Page</title>
+
+        <img src="https://logos.textgiraffe.com/logos/logo-name/Dave-designstyle-summer-m.png">
+        
+        <h1>CGS 3175C </h1> 
+
+        <div class="padding">
+
+        </head>
+
+           <p>Welcome to the home page of our Assignment tab.
+          Here you can navigate through the different assignments that Prof. Hensel gave through out the semester. There is a store and also a link to the first project that we created thisn semester.</p>
+        </div>
+
+        </div>
+        
+        <div id="page2" class="tabcontent">
+          <h2>
+            AJ's Realty
+        </h2>
+        <p>
+          Welcome to AJ's Realty page. Here you will find everything you need to purchase a property.
+      </p>
+      <img src= "https://media.istockphoto.com/photos/dream-home-luxury-house-success-suburban-house-picture-id1281554848?b=1&k=20&m=1281554848&s=170667a&w=0&h=s7X81b-3hfEGTYVkFKDOG7ZDySs57Tpw_WAETXi5xnQ=">
+      <ul type= "circle">
+        <li>This house above is a "modern" style property</li>
+        <li>This property is valued at $783,992</li>
+        <li>This property has 5 bedrooms and 6 baths</li>
+        </ul>
+        
+        <div class="format">
+        <p>      In this <a href="https://www.zillow.com/">link</a> right here you may find other properties 
+            that are similar to the one listed above. 
+        </p>
+        </div>
+    
+    
+        <ul>
+            
+            <li>Single-Family Homes</li>
+            <li>Multi-Family Homes</li>
+            <li>Apartments</li>
+            <li>Condos</li>
+            <li>Commercial Properties</li>
+        </ul>
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-81.64764404296876%2C28.441238272732587%2C-81.21711730957033%2C28.69602357718693&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/28.5687/-81.4324">View Larger Map</a></small>
+        </div>        
+        <div id="page3" class="tabcontent">
+          <h1>Shirts & Athletic Wear</h1>
+          <p>Summer Catalog is out now</p>
+          <div class="image">
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_2225000/ff_2225700b_full.jpg&w=340" alt="UCF Shirt" >
+           <div class="tabcontents">
+             <h1>S/M/L/XL</h1>
+          </div>
+          </div>
+        </div>
+        
+        <div id="page4" class="tabcontent">
+          <h1>Slippers</h1>
+          <p>Our Shoe Collection Is Almost Here!</p>
+          <div>
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_4110000/ff_4110964-2b4d2107697f4c51da34_full.jpg&w=340">
+           <div class="imagetext">XS/S/M/L</div>
+          </div>
+        </div>
+        
+        <div id="page5" class="tabcontent">
+          <h1>Mens & Women Underwear</h1>
+          <p>Cozy fashion All Year Round</p>
+          <div>
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_4460000/ff_4460679-56be94a218b0b8e87180_full.jpg&w=340">
+           <div class="imagetext">XS/S/M/L</div>
+           
+          </div>
+        </div>
+        
+        <div id="page6" class="tabcontent">
+          <h1>Kids</h1>
+          <p>The Best Fan Gear For All Kids</p>
+          <div>
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_4334000/ff_4334444-e75af3956b84454c5ba5_full.jpg&w=340">
+           <div class="imagetext">2M/8M/16M/1Y</div>
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_4326000/ff_4326221-9224cb93c66362548f09_full.jpg&w=340">
+           <div class="imagetext1">2Y/4Y/6Y/8Y/12Y/14Y</div>
+          </div>
+        </div>
+        
+        <div id="page7" class="tabcontent">
+          <h1>Gadgets, Jewelery, Team Gear & More</h1>
+          <p>Coolest Gear Around!</p>
+          <div>
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_3748000/ff_3748224-893509ef177dccb81e83_full.jpg&w=340">
+           <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_3627000/ff_3627866-97ff09d39b355cb5a921_full.jpg&w=340">
+          </div>
+        </div>
+
+        <div id="page8" class="tabcontent">
+          <h2>Location</h2>
+          <p>Come See Us On Campus</p>
+            <h1>4000 University BLVD
+            <h1>Orlando, FL 32816</h1>
+          </h1>
+        </div>
+
+
+        <script>
+        function openCity(cityName,elmnt,color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(cityName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+        
+        }
+                document.getElementById("defaultOpen").click();
+        </script>
+           
+        </body>
+        </html> 
+    

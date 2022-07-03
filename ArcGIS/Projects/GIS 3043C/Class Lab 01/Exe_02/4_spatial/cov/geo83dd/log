@@ -1,0 +1,13 @@
+200502251034   1     0     0mgilbroo tables
+200502251034   0     1     0mgilbroo build tgr16001lkh node
+200502251035   0     0     0mgilbroo tables
+200502251039   0     0     0mgilbroo ARCEDIT E:\DATA2\BOISE\MERIDIAN_20041019\SPATIAL\COV\GEO83DD\TGR16001LKH
+200502251040   5    18     0mgilbroo     ARCEDIT
+200502251053   0     2     0mgilbroo   project cover tgr16001lkh ..\sp1103f83/tgr16001lkh c:\arcgis\arcexe9x\atool\arc\geo83dd_sp1103f83.prj
+200502251053   0     0     0mgilbroo build tgr16001lkh line
+200502251055   0     0     0mgilbroo   project cover tgr16001lkh ..\sp1103f83/tgr16001lkh c:\arcgis\arcexe9x\atool\arc\geo83dd_sp1103f83.prj
+200502251058   0     0     0mgilbroo build tgr16001lkh line
+200502251058   0     0     0mgilbroo tables
+200502251059   0     1     0mgilbroo   project cover tgr16001lkh e:\data2\boise\meridian_20041019\spatial\cov\geo83dd/prtgr16001lkh c:\arcgis\arcexe9x\atool\arc\geo8
+200502251059   0     0     0mgilbroo kill prtgr16001lkh all
+200502251105   0     2     0mgilbroo   project cover tgr16001lkh ..\sp1103f83/tgr16001lkh c:\arcgis\arcexe9x\atool\arc\geo83dd_sp3751f83.prj

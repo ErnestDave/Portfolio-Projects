@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h> 
+
+
+void computeInputFile_CheckSum(char *filename, int );
+
+void compute_CheckSum(int size, char *inputString, unsigned int long *check);

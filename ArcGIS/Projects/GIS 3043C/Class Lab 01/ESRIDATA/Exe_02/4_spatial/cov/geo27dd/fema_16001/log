@@ -1,0 +1,22 @@
+19960312 705   0     1     0norby igdsarc 16001n11.dgn temp01
+19960312 705   0     0     0norby tolerance temp01 fuzzy 0.005
+19960312 705   0     4     0norby clean temp01
+19960312 705   0     2     0norby build temp01 poly
+19960312 705   0     1     0norby rename temp01 corp
+19960312 705   0     1     0norby project cover corp pcorp
+19960312 705   0     0     0norby rename pcorp corp
+19960312 705   0     3     0norby build corp
+19960312 707   1     7     0norby intersect corp panel corpp poly 0.000009
+19960312 708   1    42     0norby intersect corpp flood floodp poly 0.000009
+19960312 716   8   250     0norby intersect floodp /raid2/libraries/firm-dlg/database/geoquad floodq poly 0.000009
+19960312 716   0     0     0norby tolerance floodq dangle 0.0
+19960312 716   0     0     0norby tolerance floodq fuzzy 0.000009
+19960312 717   0     0     0norby tolerance floodq weed 0.000009
+19960312 717   0     0     0norby tolerance floodq grain 0.000018
+19960312 717   0     0     0norby tolerance floodq edit 0.000137
+19960312 717   0     0     0norby tolerance floodq nodesnap 0.000018
+19960312 717   0     0     0norby tolerance floodq snap 0.000009
+19960312 717   0     0     0norby rename floodq c16001
+19960312 719   0     2     0norby COUNTVERTICES C16001 POLY
+19960312 720   0     0     0norby copy c16001 /usr9/q3/c16001
+199603121122   1     0     0norby copy q3 c16001

@@ -1,0 +1,15 @@
+200006121504   1    58     0mgilbroo       regionclean xx150258 xx150258
+200006121616   0     0     0mgilbroo     dropfeatures xx150258 region.*
+200006121617   1    19     0mgilbroo     reselect xx150258 e:/data1/nar/basemap/coverages/lambert/quad24z
+200006121617   0     5     0mgilbroo     labelerrors e:/data1/nar/basemap/coverages/lambert/quad24z unlabeled
+200006121617   0     6     0mgilbroo           createlabels e:/data1/nar/basemap/coverages/lambert/quad24z
+200006121618   1    20     0mgilbroo           build e:/data1/nar/basemap/coverages/lambert/quad24z
+200006121621   0     0     0mgilbroo rename quad24z quad_24k
+200006121623   2     0     0mgilbroo projectdefine cover quad_24k
+200006121626   1     0     0mgilbroo projectdefine cover quad_24k
+200007312307   0     0     0mgilbroo rename quad_24k quad_24k_us
+200007312317   0     2     0mgilbroo   copy e:\data1\nar\basemap\coverages\lambert/quad_24k_us e:/data1/misc_data/quad_24k/lambert/quad_24k_us Default
+200007312326   0    10     0mgilbroo   project cover quad_24k_us ../geo83dd/quad_24k_us e:\esri\arcexe80\atool\arc\quad24k_geo83dd.prj
+200007312327   0    23     0mgilbroo   build quad_24k_us Poly
+200305211341   1    53     0mgilbroo export cover quad_24k_us quad_24k_us
+20041018 103   2     3     0mgilbroo reselect quad_24k_us quad_24K_id poly

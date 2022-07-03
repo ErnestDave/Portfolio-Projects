@@ -1,0 +1,4 @@
+199702101901  12   516     0ejp107     mapjoin hynet net
+199702101912  11   541     0ejp107        clip hynet ponet hynet-clip net
+199702101913   1     1     0ejp107        rename hynet-clip hynet
+199702101913   0     0     0ejp107        PROJECTDEFINE cover hynet

@@ -1,0 +1,395 @@
+TopoDepot™ Help: Tiger® Data 
+  ***7½-Minute Vector Quad Maps To Go!***
+  by Sylvan Ascent, Inc. 
+  Cybercartographers of Planet Earth™ 
+     TIGER® Data and Layer Descriptions
+        Streets, Water Features, Transportation
+        The US Census Bureau TIGER/LINE files were used for the basic 
+        cartographic data for the TopoDepot. These files are identical to the 
+        USGS 100K DLG feature data everywhere except urban areas. We used the 
+        TIGER files because they have street names added, whereas the DLG files 
+        have no street name information. Unfortunately, the Census Bureau used 
+        their own DIME files in urban areas. These files are more up-to-date 
+        than the DLG files, but their positional accuracy is not as good as the 
+        DLG files. Here is the US Census Bureau official documentation on the 
+        TIGER/Liner data. 
+        Accuracy: Map accuracy for these maps varies by feature and by 
+        geographical area. Each type corresponds to National Map Accuracy 
+        standards for the original data from the US government. The TIGER maps 
+        were derived from the USGS 1:100,000 DLG data in rural areas (NAD27). 
+        The DLG files have a stated accuracy of approximately ±166 feet. In 
+        urban areas, the Census Bureau DIME data were used; they have no 
+        accuracy specifications. 
+         
+        Census Feature Class Codes (CFCC)
+        This is a series of codes that provides more detailed information on the 
+        classification of the line segment, such as class of road or class of 
+        stream.
+         CFCC CLASSIFICATION A = ROAD FEATURES
+        A00 Road, Classification Unknown or Not Elsewhere Classified
+        A01 Road, undivided
+        A02 Road, undivided, in tunnel
+        A03 Road, undivided, underpassing
+        A04 Road, undivided, rail line in center
+        A05 Road, divided
+        A06 Road, divided, in tunnel
+        A07 Road, divided, underpassing
+        A08 Road, divided, rail line in center 
+        A10 Primary road, interstate highway and limited access road
+        A11 Primary road, interstate highway and limited access road, undivided
+        A12 Primary road, interstate highway and limited access road, undivided, 
+        in tunnel
+        A13 Primary road, interstate highway and limited access road, undivided, 
+        underpassing
+        A14 Primary road, interstate highway and limited access road, undivided, 
+        rail line in center 
+        A15 Primary road, interstate highway and limited access road, divided
+        A16 Primary road, interstate highway and limited access road, divided, 
+        in tunnel
+        A17 Primary road, interstate highway and limited access road, divided, 
+        underpassing 
+        A18 Primary road, interstate highway and limited access road, divided, 
+        rail line in center 
+        A20 Secondary road, U.S. highway not classified A10, and state roads
+        A21 Secondary road, U.S. highway not classified A10, and state roads, 
+        undivided
+        A22 Secondary road, U.S. highway not classified A10, and state roads, 
+        undivided, in tunnel
+        A23 Secondary road, U.S. highway not classified A10, and state roads, 
+        undivided, underpassing
+        A24 Secondary road, U.S. highway not classified A10, and state roads, 
+        undivided, rail line in center 
+        A25 Secondary road, U.S. highway not classified A10, and state roads, 
+        divided
+        A26 Secondary road, U.S. highway not classified A10, and state roads, 
+        divided, in tunnel
+        A27 Secondary road, U.S. highway not classified A10, and state roads, 
+        divided, underpassing
+        A30 Connecting road, county roads, and roads not classified as A10 or 
+A20
+        A31 Connecting road, county roads, and roads not classified as A10 or 
+        A20, undivided
+        A32 Connecting road, county roads, and roads not classified as A10 or 
+        A20, undivided, in tunnel
+        A33 Connecting road, county roads, and roads not classified as A10 or 
+        A20, undivided, underpassing
+        A34 Connecting road, county roads, and roads not classified as A10 or 
+        A20, undivided, rail line in center
+        A35 Connecting road, county roads, and roads not classified as A10 or 
+        A20, divided
+        A36 Connecting road, county roads, and roads not classified as A10 or 
+        A20, divided, in tunnel
+        A37 Connecting road, county roads, and roads not classified as A10 or 
+        A20, divided, underpassing
+        A38 Connecting road, county roads, and roads not classified as A10 or 
+        A20, divided, rail line in center 
+        A40 Neighborhood roads, city streets and unimproved roads
+        A41 Neighborhood roads, city streets and unimproved roads, undivided
+        A42 Neighborhood roads, city streets and unimproved roads, undivided, in 
+        tunnel
+        A43 Neighborhood roads, city streets and unimproved roads, undivided, 
+        underpassing
+        A44 Neighborhood roads, city streets and unimproved roads, undivided, 
+        rail line in center 
+        A45 Neighborhood roads, city streets and unimproved roads, divided
+        A46 Neighborhood roads, city streets and unimproved roads, divided, in 
+        tunnel
+        A47 Neighborhood roads, city streets and unimproved roads, divided, 
+        underpassing
+        A48 Neighborhood roads, city streets and unimproved roads, divided, rail 
+        line in center 
+        A50 Jeep trail, passable only by four-wheel drive (4WD) vehicle
+        A51 Jeep trail, passable only by four-wheel drive (4WD) vehicle, 
+        undivided
+        A52 Jeep trail, passable only by four-wheel drive (4WD) vehicle, 
+        undivided, in tunnel
+        A53 Jeep trail, passable only by four-wheel drive (4WD) vehicle, 
+        undivided, underpassing 
+        A60 Special Road Feature
+        A61 Cul-de-sac
+        A62 Traffic circle
+        A63 Cloverleaf or interchange
+        A64 Service drive
+        A65 Ferry crossing 
+        A70 Other Thoroughfare
+        A71 Walkway
+        A72 Stairway
+        A73 Alley
+        NOTE: In the portion of the TIGER/Line file prepared from the 
+        GBF/DIME-Files, the roads are classified as Class 4 roads with a few 
+        exceptions. The interstate highways that were identified by name as such 
+        in the DIME-File, are classified as class 1 roads. Also, in the 
+        GBF/DIME-File coverage areas, users may not find many roads with 
+        alternate names; if an alternate name is provided, it usually represents 
+        another local name and not a Route Number.
+        CFCC CLASSIFICATION B = RAIL FEATURES 
+        B00 Railroad, Classification Unknown or Not Elsewhere Classified 
+        B01 Railroad track
+        B02 Railroad track, in tunnel 
+        B03 Railroad track, underpassing 
+        B10 Railroad Main Track
+        B11 Railroad main track
+        B12 Railroad main track, in tunnel 
+        B13 Railroad main track, underpassing 
+        B20 Railroad Spur Track
+        B21 Railroad spur track
+        B22 Railroad spur track, in tunnel 
+        B23 Railroad spur track, underpassing 
+        B30 Railroad Yard
+        B31 Railroad yard
+        B32 Railroad yard, in tunnel 
+        B33 Railroad yard, underpassing 
+        B40 Railroad Ferry Crossing 
+        B50 Other Rail Feature
+        B51 Carline
+        B52 Cog railroad, incline railway, or logging tram
+        CFCC CLASSIFICATION C = PIPELINES, POWER TRANSMISSION LINES, AND 
+        MISCELLANEOUS TRANSPORTATION FEATURES
+        C00 Special Transportation Feature, Classification Unknown or Not 
+        Elsewhere Classified
+        C10 Pipeline 
+        C20 Power Transmission Line 
+        C30 Other Special Transportation Feature
+        C31 Aerial tramway, monorail, or ski lift
+         CFCC CLASSIFICATION D = LANDMARK FEATURES
+        D00 Landmark Feature, Classification Unknown or Not Elsewhere Classified
+        D50 Transportation terminal
+        D51 Airport or airfield
+         CFCC CLASSIFICATION E = OTHER PHYSICAL FEATURES
+        E00 Physical Feature, Classification Unknown or Not Elsewhere Classified
+        E10 Fence line 
+        E20 Topographic feature
+        E21 Ridge line
+        E22 Mountain peak
+         
+        CFCC CLASSIFICATION F = NONVISIBLE BOUNDARIES
+        F00 Nonvisible Boundary, Classification Unknown or Not Elsewhere 
+        Classified
+        F10 Nonvisible Political Boundary
+        F11 Offset Corporate Boundary
+        F12 Corporate Corridor
+        F13 Nonvisible interpolated boundary
+        F14 Superseded legal or administrative boundary
+        F15 Superseded legal or administrative boundary, corrected through post
+        census process
+        F16 Superseded legal or administrative boundary, current at the time of 
+        the
+        1992 Economic Census
+        F17 Nonvisible State Legislative District boundary
+        F18 Nonvisible Congressional District boundary
+        F20 Feature Extension (Extensions not otherwise classified)
+        F21 Automated extensions
+        F22 Manually added block extensions
+        F23 Closure extension
+        F24 Nonvisible separation line
+        F25 Nonvisible corporate corridor line
+        F30 Point-to-Point line
+        F40 Property Line
+        F50 Zip Code Boundary
+        F60 Map edge
+        F70 Statistical Area Boundary
+        F71 1980 Statistical Boundary
+        F72 1990 Block Boundary
+        F73 Urbanized area land use boundary
+        F74 1990 Statistical Boundary, Tabulation Areas Only
+         
+        CFCC CLASSIFICATION H = HYDROGRAPHIC FEATURES
+        H00 Water Feature, Classification Unknown or Not Elsewhere Classified
+        H01 Shoreline of perennial water feature
+        H02 Shoreline of intermittent water feature 
+         
+        H10 Stream
+        H11 Perennial stream
+        H12 Intermittent stream or wash
+        H13 Braided stream 
+        H20 Canal, Ditch, or Aqueduct
+        H21 Perennial canal, ditch, or aqueduct
+        H22 Intermittent canal, ditch, or aqueduct
+        H30 Lake or pond
+        H31 Perennial lake or pond
+        H32 Intermittent lake or pond 
+        H40 Reservoir
+        H41 Perennial reservoir
+        H42 Intermittent reservoir 
+        H50 Bay, Estuary, Gulf, Sound, Sea, or Ocean
+        H51 Bay, estuary, gulf, or sound
+        H53 Sea or ocean 
+        H60 Gravel Pit or Quarry Filled With Water 
+        H70 Nonvisible Water Area Definition Boundary 
+        H71 USGS closure line
+        H72 Census computed center line
+        H73 Census international water boundary, 10-mile limit, area measurement 
+        line
+        H74 Census water boundary, inland or coastal or Great Lakes
+        H75 3-mile limit water boundary 
+        H80 Special Water Feature
+        H81 Glacier
+         CFCC CLASSIFICATION X = FEATURES NOT YET CLASSIFIED
+        X00 Feature Not Yet Classified
+        NMS75, NMS100, NMS125
+        The NMSXX layers are the name layers. There are three sizes of names, 
+        depending on the size of the road. A longer road will have a slightly 
+        larger text size than a shorter road.
+         
+         FEATURE CLASS DEFINITIONS
+        The feature class terms and abbreviations currently consist of nine or 
+        fewer letters and were chosen for computer search and retrieval 
+        purposes. They do not necessarily represent terminology for the 
+        identification of all kinds of cultural and natural features. Although 
+        some of the terms may agree with dictionary definitions, they represent 
+        more generalized categories. Some commonly used generics are listed in 
+        parentheses at the end of each entry to assist in understanding the 
+        range of cultural and natural entities represented by the term. 
+        Refer to the Reference Data Base to retrieve all generics thus far 
+        encountered in geographic names compilation. In most instances a plural 
+        form is listed as if it were singular; for example, archipelago or 
+        islands would be categorized as island. The terms and the definitions 
+        are as follows:
+        airport: manmade facility maintained for the use of aircraft (airfield, 
+        airstrip, landing field, landing strip).
+        arch: natural arch-like opening in a rock mass (bridge, natural bridge, 
+        sea arch).
+        area: any one of several extensive natural features not included in 
+        other categories (badlands, barren, delta, fan, garden).
+        arroyo: watercourse or channel through which water may occasionally flow 
+        (coulee, draw, gully, wash).
+        bar: natural accumulation of sand, gravel, or alluvium forming an 
+        underwater or exposed embankment (ledge, reef, sandbar, shoal, spit).
+        basin: natural depression or relatively low area enclosed by higher land 
+        (amphitheater, cirque, pit, sink).
+        bay: indentation of a coastline or shoreline enclosing a part of a body 
+        of water; a body of water partly surrounded by land (arm, bight, cove, 
+        estuary, gulf, inlet, sound).
+        beach: the sloping shore along a body of water that is washed by waves 
+        or tides and is usually covered by sand or gravel (coast, shore, 
+strand).
+        bench: area of relatively level land on the flank of an elevation such 
+        as a hill, ridge, or mountain where the slope of the land rises on one 
+        side and descends on the opposite side (level).
+        bend: curve in the course of a stream and (or) the land within the 
+        curve; a curve in a linear body of water (bottom, loop, meander).
+        bridge: manmade structure carrying a trail, road, or other 
+        transportation system across a body of water or depression (causeway, 
+        overpass, trestle).
+        building: a manmade structure with walls and a roof for protection of 
+        people and (or) materials, but not including church, hospital, or 
+school.
+        canal: manmade waterway used by water craft or for drainage, irrigation, 
+        mining, or water power (ditch, lateral).
+        cape: projection of land extending into a body of water (lea, neck, 
+        peninsula, point).
+         
+        cave: natural underground passageway or chamber, or a hollowed out 
+        cavity in the side of a cliff (cavern, grotto).
+        cemetery: a place or area for burying the dead (burial, burying ground, 
+        grave, memorial garden).
+        channel: linear deep part of a body of water through which the main 
+        volume of water flows and is frequently used as a route for water craft 
+        (passage, reach, strait, thoroughfare).
+        church: building used for religious worship (chapel, mosque, synagogue, 
+        tabernacle, temple).
+        civil: a political division formed for administrative purposes (borough, 
+        county, municipal, parish, town, township).
+        cliff: very steep or vertical slope (bluff, crag, head, headland, nose, 
+        palisades, precipice, promontory, rim, rim rock).
+        crater: circular-shaped depression at the summit of a volcanic cone or 
+        one on the surface of the land caused by the impact of a meteorite; a 
+        manmade depression caused by an explosion (caldera, lua).
+        crossing: a place where two or more routes of transportation form a 
+        junction or intersection (overpass, underpass).
+        dam: water barrier or embankment built across the course of a stream or 
+        into a body of water to control and (or) impound the flow of water 
+        (breakwater, dike, jetty).
+        falls: perpendicular or very steep fall of water in the course of a 
+        stream (cascade, cataract, waterfall).
+        flat: relative level area within a region of greater relief (clearing, 
+        glade, playa).
+        forest: bounded area of woods, forest, or grassland under the 
+        administration of a political agency (see woods) (national forest. 
+        national grasslands, State forest).
+        gap: low point or opening between hills or mountains or in a ridge or 
+        mountain range (col, notch, pass, saddle, water gap, wind gap).
+        geyser: eruptive spring from which hot water and (or) steam, and in some 
+        cases, mud are periodically thrown.
+        glacier: body or stream of ice moving outward and downslope from an area 
+        of accumulation; an area of relatively permanent snow or ice on the top 
+        or side of a mountain or mountainous area (ice field, ice patch, snow 
+        patch).
+        gut: relatively small coastal waterway connecting larger bodies of water 
+        or other waterways (creek, inlet, slough).
+        harbor: sheltered area of water where ships or other water craft can 
+        anchor or dock (hono, port, roads, roadstead).
+        hospital: building where the sick or injured may receive medical or 
+        surgical attention (infirmary).
+        island: area of dry or relatively dry land surrounded by water or low 
+        wetland (archipelago, atoll, cay, hammock, hummock, isla, isle, key, 
+        moku, rock).
+        isthmus: narrow section of land in a body of water connecting two larger 
+        land areas.
+        lake: natural body of inland water (backwater, lac, lagoon, laguna, 
+        pond, pool, resaca, waterhole).
+        lava: formations resulting from the consolidation of molten rock on the 
+        surface of the Earth (kepula, lava flow).
+        levee: natural or manmade embankment flanking a stream (bank, berm).
+        locale: place at which there is or was human activity; it does not 
+        include populated places, mines, and dams (battlefield, crossroad, camp, 
+        farm, ghost town, landing, railroad siding, ranch, ruins, site, station, 
+        windmill).
+        mine: place or area from which commercial minerals are or were removed 
+        from the Earth; not including oil field (pit, quarry, shaft).
+        oil field: area where petroleum is or was removed from the Earth.
+        other: category for miscellaneous named manmade entities that cannot 
+        readily be placed in the other feature classes listed here.
+        park: place or area set aside for recreation or preservation of a 
+        cultural or natural resource and under some form of government 
+        administration; not including National or State forests or Reserves 
+        (National Historical Landmark, National Park, State Park, Wilderness 
+        Area).
+        pillar: vertical, standing, often spire-shaped, natural rock formation 
+        (chimney, monument, pinnacle, pohaku, rock tower).
+        plain: a region of general uniform slope, comparatively level and of 
+        considerable extent (grassland, highland, kula, plateau, upland).
+        ppl: (populated place) place or area with clustered or scattered 
+        buildings and a permanent human population (city, settlement, town, 
+        village).
+        range: chain of hills of mountains; a somewhat linear, complex 
+        mountainous or hilly area (cordillera, sierra).
+        rapids: fast-flowing section of a stream, often shallow and with exposed 
+        rock or boulders (riffle, ripple).
+        reserve: a tract of land set aside for a specific use (does not include 
+        forests, civil divisions, parks). reservoir - artificially impounded 
+        body of water (lake, tank).
+        ridge: elevation with a narrow, elongated crest which can be part of a 
+        hill or mountain (crest, cuesta, escarpment, hogback, lae, rim, spur).
+        school: building or group of buildings used as an institution for study, 
+        teaching, and learning (academy, college, high school, university).
+        sea: large body of salt water (gulf, ocean).
+        slope: a gently inclined part of the Earth's surface (grade, pitch).
+        spring: place where underground water flows naturally to the surface of 
+        the Earth (seep).
+        stream: linear body of water flowing on the Earth's surface (anabranch, 
+        awawa, bayou, branch, brook, creek, distributary, fork, kill, pup, rio, 
+        river, run, slough).
+        summit: prominent elevation rising above the surrounding level of the 
+        Earth's surface; does not include pillars, ridges, or ranges (ahu, berg, 
+        bald, butte, cerro, colina, cone, cumbre, dome, head, hill, horn, knob, 
+        knoll, mauna, mesa, mesita, mound, mount, mountain, peak, puu, rock, 
+        sugarloaf, table, volcano).
+        swamp: poorly drained wetland, fresh or saltwater, wooded or grassy, 
+        possibly covered with open water (bog, cienega, marais, marsh, pocosin).
+        trail: route for passage from one point to another; does not include 
+        roads or highways (jeep trail, path, ski trail).
+        tower: a manmade structure, higher than its diameter, generally used for 
+        observation, storage, or electronic transmission. 
+        tunnel - linear underground passageway open at both ends.
+        valley: linear depression in the Earth's surface that generally slopes 
+        from one end to the other (barranca, canyon, chasm, cove, draw, glen, 
+        gorge, gulch, gulf, hollow, ravine).
+        well: manmade shaft or hole in the Earth's surface used to obtain fluid 
+        or gaseous materials.
+        woods: small area covered with a dense growth of trees; does not include 
+        an area of trees under the administration of a political agency (see 
+        forest).
+
+        Return to Help Table of Contents or click on your browser's "Back" 
+        button to continue.
